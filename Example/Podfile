@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DJNetworking_Example' do
+#  pod 'DJNetworking', :path => '../'
+  pod 'AFNetworking'
+  target 'DJNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

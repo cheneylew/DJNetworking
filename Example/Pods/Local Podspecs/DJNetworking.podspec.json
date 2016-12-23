@@ -1,0 +1,27 @@
+{
+  "name": "DJNetworking",
+  "version": "0.1.0",
+  "summary": "DJNetworking 对AFNetworking进行二次封装",
+  "description": "DJNetworking 对AFNetworking进行二次封装\nDJNetworking 对AFNetworking进行二次封装\nDJNetworking 对AFNetworking进行二次封装",
+  "homepage": "https://github.com/cheneylew/DJNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Deju Liu": "cheneylew@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cheneylew/DJNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DJNetworking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
+}
