@@ -80,6 +80,7 @@
 		C95B8BEB1E0CEB37004837B8 /* DJEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJEngine.m; sourceTree = "<group>"; };
 		C95B8BEC1E0CEB37004837B8 /* DJRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRequest.h; sourceTree = "<group>"; };
 		C95B8BED1E0CEB37004837B8 /* DJRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRequest.m; sourceTree = "<group>"; };
+		C95B8BF11E0D0DED004837B8 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +240,7 @@
 				C95B8BEC1E0CEB37004837B8 /* DJRequest.h */,
 				C95B8BED1E0CEB37004837B8 /* DJRequest.m */,
 				C95B8BE11E0CEB14004837B8 /* .gitkeep */,
+				C95B8BF11E0D0DED004837B8 /* ReadMe.md */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
