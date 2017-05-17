@@ -291,9 +291,9 @@ static NSString * const kDJRequestBindingKey = @"kDJRequestBindingKey";
 - (void)DJ_processURLRequest:(NSMutableURLRequest *)urlRequest byDJRequest:(DJRequest *)request {
     if (request.headers.count > 0) {
         [request.headers enumerateKeysAndObjectsUsingBlock:^(id field, id value, BOOL * __unused stop) {
-            //if (![urlRequest valueForHTTPHeaderField:field]) {
+            if (![urlRequest valueForHTTPHeaderField:field]) {
                 [urlRequest setValue:value forHTTPHeaderField:field];
-            //}
+            }
         }];
     }
     urlRequest.timeoutInterval = request.timeoutInterval;
